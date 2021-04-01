@@ -1,0 +1,6 @@
+img { 
+    float: right; 
+} 
+img:hover { 
+    opacity: 0.9; 
+}

@@ -1,0 +1,10 @@
+body {
+    background-color: #eee;
+}
+div {
+    background-color: red;
+    max-width: 350px;
+    height: 500px;
+    position: fixed; 
+    right: 15px;
+}

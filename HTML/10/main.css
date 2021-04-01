@@ -1,0 +1,15 @@
+body { 
+    background-color: #eee; 
+} 
+.caja { 
+    margin: 8px; 
+    padding: 8px; 
+    background-color: #aaf; 
+    border-style: double; 
+    border-width: 2px; 
+    border-left: 5px solid #afa; 
+    border-radius: 8px; 
+    height: 100px; 
+    width: 100px; 
+    color: #575 
+}

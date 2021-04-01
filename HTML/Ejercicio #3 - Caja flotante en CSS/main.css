@@ -1,0 +1,36 @@
+body { 
+    background-color: #eee; 
+} 
+.caja { 
+    background-color: #fff; 
+    border-width: 1px; 
+    border-color: gainsboro; 
+    border-radius: 2px; 
+} 
+.header { 
+    font-family: Calibri; 
+    border-bottom: 0px; 
+    padding: 10px; 
+} 
+.content { 
+    font-family: Calibri; 
+    padding: 10px; 
+    border-top: solid 1px #eee; 
+} 
+.footer { 
+    font-family: Calibri; 
+    padding: 10px; 
+    border-top: solid 1px #eee; 
+} 
+.primary { 
+    background-color: royalblue; 
+    padding: 5px; 
+    color: seashell; 
+    border-width: 0px; 
+} 
+.secondary { 
+    background-color: grey; 
+    padding: 5px; 
+    color: seashell; 
+    border-width: 0px; 
+}

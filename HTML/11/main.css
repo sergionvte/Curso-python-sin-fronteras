@@ -1,0 +1,10 @@
+a { 
+    font-family: Calibri; 
+    text-decoration: none; 
+    font-weight: 100; 
+    color: hotpink; 
+    background-color: khaki; 
+    padding: 10px; 
+    border-radius: 5px; 
+    border-color: solid 1px #ff0; 
+}
