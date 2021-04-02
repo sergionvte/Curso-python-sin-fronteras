@@ -1,4 +1,35 @@
 body {
-    background-color: #eee;
+  background-color: #eee;
 }
-
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  position: fixed;
+  overflow: hidden;
+  top: 0px;
+  left: 0px;
+  background-color: #474749;
+  width: 100%;
+}
+li {
+  float: left;
+}
+a {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  font-family: Calibri;
+  font-weight: 100;
+}
+li:hover {
+  background-color: #282828;
+}
+.active {
+  background-color: #AF654C;
+}
+.active:hover {
+  background-color: #804633;
+}
