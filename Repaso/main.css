@@ -1,35 +1,48 @@
 body {
-  background-color: #eee;
+  background-color: #efedea;
 }
 ul {
   list-style: none;
-  margin: 0px;
   padding: 0px;
+  margin: 0px;
+  display: block;
+  background-color: #474749;
   position: fixed;
   overflow: hidden;
-  top: 0px;
-  left: 0px;
-  background-color: #474749;
   width: 100%;
+  top: 0;
+  left: 0;
 }
 li {
-  float: left;
+  float:left;
 }
 a {
-  display: block;
   padding: 15px;
-  text-decoration: none;
-  text-align: center;
   color: white;
-  font-family: Calibri;
+  text-decoration: none;
+  font-family: Chandas;
   font-weight: 100;
 }
 li:hover {
-  background-color: #282828;
+  background-color: #232325;
 }
 .active {
-  background-color: #AF654C;
+  background-color: #c75e5e;
 }
 .active:hover {
-  background-color: #804633;
+  background-color: #582a2a;
+}
+.content {
+  margin-top: 75px;
+  font-family: Lohit Telugu;
+  font-size: 14pt;
+}
+.content h1 {
+  text-align: center;
+  font-family: Manjari;
+  font-weight: 100;
+  padding: 0px;
+}
+.content p {
+  padding-left: 10px;
 }
