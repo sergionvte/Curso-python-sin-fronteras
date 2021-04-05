@@ -1,0 +1,6 @@
+body {
+  background-color: #eee;
+}
+.fondo {
+  background-image: repeating-linear-gradient(-15deg, rgba(255, 0, 0, 0.2) 10%, tomato 20%);
+}

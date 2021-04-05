@@ -2,7 +2,14 @@ body {
     background-color: #eee;
 }
 .fondo {
-    height: 400px;
-    background: green url('http://placekitten.com/200/300') no-repeat left top fixed;
-    background-size: cover;
+  height: 400px;
+  background-color: green;
+  background-image: url('http://placekitten.com/g/200/300'); /* Si solo lo ponemos de esta forma, la imagen va a repetirse varias veces, porque tienen un display block, y no usa todo el alto porque al usar el background image, la imagen va colocarse solo en el alto y ancho del elemento, podemos forzar a que nos muestre toda la imagen con el height del principio */
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-attachment: fixed;
+  background-size: cover;
+  /* Todo lo anterior podemos ponerlo dentro de una misma línea */
+  /* background: green url('http://placekitten.com/g/200/300') no-repeat left top scroll*/
 }
+

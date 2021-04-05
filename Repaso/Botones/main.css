@@ -1,0 +1,19 @@
+body {
+  background-color: #eee;
+}
+.caja {
+  background-color: #fff;
+  border: solid 1px #ccc;
+  max-width: 400px;
+  border-radius: 5px;
+}
+.caja div {
+  padding: 15px;
+  border-top: solid 1px #ccc;
+}
+a {
+  padding: 15px;
+  cursor: pointer;
+  background-color: #43afb3;
+  margin: 10px;
+}
