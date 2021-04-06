@@ -1,0 +1,17 @@
+body {
+  background-color: #eee;
+}
+.box {
+  background-color: white;
+  box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.2);
+  width: 100px;
+  height: 100px;
+  position: relative;
+  left: 50px;
+  top: 50px;
+  transform: scale(0.9, 0.9);
+}
+.box:hover {
+  transform: scale(1.05, 1.05);
+}
+/*El hover anterior es para hacer un efecto en donde si pasamos el mouse por encima del elemento crece o se hace más pequeño*/
