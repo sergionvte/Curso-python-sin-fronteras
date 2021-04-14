@@ -1,0 +1,33 @@
+body {
+  background-color: #eee;
+}
+div {
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.3);
+  width: 350px;
+  padding: 2px;
+  text-align: center;
+  margin-left: 20px;
+  margin-top: 18px;
+  background-color: #fff;
+}
+.box1 {
+  border-left: solid 3px red;
+  transition: 0.3s;
+}
+.box2 {
+  border-left: solid 3px green;
+  transition: 0.3s;
+}
+.box3 {
+  border-left: solid 3px blue;
+  transition: 0.3s;
+}
+.box1:hover {
+  transform: scale(1.05);
+}
+.box2:hover {
+  box-shadow: 4px 4px 10px rgba(0,0,0,0.3);
+}
+.box3:hover {
+  background-color: rgba(0,0,255,0.1);
+}
