@@ -1,7 +1,7 @@
 body {
   background-color: #eee;
 }
-div {
+.box {
   box-shadow: 2px 2px 2px rgba(0,0,0,0.3);
   width: 350px;
   padding: 2px;
@@ -9,26 +9,24 @@ div {
   margin-left: 20px;
   margin-top: 18px;
   background-color: #fff;
-  cursor: pointer;
+  transition: 0.3s;
 }
-.box1 {
+.red {
   border-left: solid 3px red;
-  transition: 0.3s;
 }
-.box2 {
+.green {
   border-left: solid 3px green;
-  transition: 0.3s;
 }
-.box3 {
+.blue {
   border-left: solid 3px blue;
-  transition: 0.3s;
 }
-.box1:hover {
+.red:hover {
   transform: scale(1.05);
 }
-.box2:hover {
+.green:hover {
   box-shadow: 3px 3px 10px rgba(0,0,0,0.3);
 }
-.box3:hover {
+.blue:hover {
   background-color: rgba(0,0,255,0.1);
 }
+/* Este código no es como el del curso, pero tiene los cambios más destacables*/

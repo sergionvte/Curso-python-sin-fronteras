@@ -1,0 +1,27 @@
+body {
+  background-color: #eee;
+}
+.grid {
+  display: grid;
+  /* Asignando un nombre a c/u de las grillas */
+  grid-template-rows: [row-1-inicio] 50px [row-2-inicio] 50px;
+  grid-template-columns: [col-1-inicio] 1fr [col-2-start] 1fr [col-3-start] 1fr [fin];
+
+  /* grid-row-gap: 20px;
+  grid-column-gap: 10px; */
+  /* grid-gap: 20px 10px; */
+  grid-gap: 15px;
+}
+.element {
+  background-color: red;
+}
+
+.header {
+  /* grid-column-start: 1;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 3; */
+  grid-column: col-1-inicio / fin;
+  grid-row: 1 / 3;
+  
+}

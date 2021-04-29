@@ -1,0 +1,10 @@
+body {
+  background-color: #eee;
+}
+.grid {
+  display: grid;
+  /* display: inline-grid; */
+}
+.element {
+  background-color: red;
+}

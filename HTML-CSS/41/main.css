@@ -1,0 +1,18 @@
+body {
+  width: 200px;
+}
+.flex {
+  display: flex;
+  flex-flow: row wrap;
+  
+  height: 200px;
+}
+.red {
+  background-color: red;
+}
+.primero {
+  order: 1;
+}
+.tercero {
+  order: -1;
+}
